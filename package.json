@@ -1,0 +1,38 @@
+{
+	"name": "vite-vue",
+	"version": "0.0.0",
+	"description": "description",
+	"author": {
+		"name": "Martin Oppitz",
+		"email": "github@martinoppitz.com"
+	},
+	"license": "UNLICENSED",
+	"scripts": {
+		"build": "tsc && vite build",
+		"coverage": "vitest run --coverage",
+		"dev": "vite",
+		"preview": "vite preview",
+		"start": "npm run dev",
+		"test": "vitest",
+		"test:ui": "vitest --ui",
+		"update": "ncu -t minor -u && ncu"
+	},
+	"dependencies": {
+		"@public-ui/components": "1.6.0-rc.28",
+		"@public-ui/react": "1.6.0-rc.28",
+		"@public-ui/themes": "1.6.0-rc.28",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@leanup/stack": "1.3.44",
+		"@types/react": "18.2.20",
+		"@types/react-dom": "18.2.7",
+		"@vitejs/plugin-react": "4.0.4",
+		"npm-check-updates": "16.12.2",
+		"prettier": "3.0.2",
+		"unocss": "0.55.2",
+		"typescript": "5.1.6",
+		"vite": "4.4.9"
+	}
+}
